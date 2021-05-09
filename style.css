@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #f2c94c;
+}
+
+
+body {
+    margin: 0;
+}
+
+nav {
+    background: var(--primary-color);
+    text-align: center;
+    font-family: cursive;
+    border-bottom-left-radius: 1.5rem;
+}
+
+
+footer
+{
+    background: var(--primary-color);
+    text-align: center;
+    font-family: cursive;
+    margin-top: 3rem;  
+}
+
+
+
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+    text-align: start;
+    font-family: inherit;
+    font-size: x-large;
+    overflow: auto;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+#btn-translate{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 2rem;
+    background-color: khaki;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+}
+
+#output{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    margin-top: 1rem;
+    background-color: khaki;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: 2px solid black;
+    text-align-last: auto;
+
+}
