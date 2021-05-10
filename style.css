@@ -2,9 +2,15 @@
     --primary-color: #f2c94c;
 }
 
-
 body {
     margin: 0;
+}
+
+.center{
+    max-width: 500px;
+    margin: auto;
+    padding: 12px;
+    text-align: right;
 }
 
 nav {
@@ -14,23 +20,26 @@ nav {
     border-bottom-left-radius: 1.5rem;
 }
 
-
-footer
-{
-    background: var(--primary-color);
+.button{
+    display: inline-block;
+    margin-top: 1.8rem;
+    margin-right: 1rem;
+    border: none;
+    padding: 3px 10px;
     text-align: center;
-    font-family: cursive;
-    margin-top: 3rem;  
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    background-color: khaki;
+    border-radius: 0.8rem;   
 }
-
-
-
 
 textarea {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 0.8rem;
     padding: 2rem;
     text-align: start;
     font-family: inherit;
@@ -53,6 +62,7 @@ textarea {
     background-color: khaki;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    cursor:pointer;
 
 }
 
@@ -61,7 +71,7 @@ textarea {
     margin-left: auto;
     margin-right: auto;
     padding: 0.5rem;
-    text-align: center;
+    text-align: start;
     font-family: cursive;
     font-size: x-large;
     margin-top: 1rem;
@@ -70,5 +80,18 @@ textarea {
     border-top-left-radius: 1rem;
     border: 2px solid black;
     text-align-last: auto;
-
 }
+
+footer
+{
+    background: var(--primary-color);
+    text-align: center;
+    font-family: cursive;
+    margin-top: 3rem;  
+    border-top-right-radius:1.5rem ;
+}
+
+
+
+
+
