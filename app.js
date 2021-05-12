@@ -38,20 +38,20 @@ function clickHandler(){
 
 function sampleEvent()
 {
-    txtInput.innerText="Hello this is a sample text";
-    btn.addEventListener("click", clickHandler);
+    txtInput.value="Debugging is like being the detective in a crime drama where you are also the murderer.";
 
-
-}
+};
 
 function clear(){
     txtInput.value= "";
     output.innerText= "";
-}
+};
+
 
 
 
 btn.addEventListener("click", clickHandler);
 samplebtn.addEventListener("click", sampleEvent);
 clearbtn.addEventListener("click", clear);
+
 
